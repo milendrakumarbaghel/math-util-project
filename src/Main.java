@@ -13,9 +13,9 @@ public class Main {
 
         System.out.print("Enter a number to call utility function: ");
         int choice = scanner.nextInt();
-        System.out.print("Enter first number: ");
+        System.out.println("Enter first number: ");
         int num1 = scanner.nextInt();
-        System.out.print("Enter second number: ");
+        System.out.println("Enter second number: ");
         int num2 = scanner.nextInt();
 
         switch (choice) {
@@ -26,7 +26,7 @@ public class Main {
                 System.out.println("Result: " + Substraction.sub(num1, num2));
                 break;
             case 3:
-                System.out.println("Result: " + Multiplication.mul(num1, num2));
+                System.out.println("Result: " + Multiplication.multiply(num1, num2));
                 break;
             case 4:
                 if (num2 != 0) {
