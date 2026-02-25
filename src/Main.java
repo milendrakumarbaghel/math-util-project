@@ -30,7 +30,7 @@ public class Main {
                 break;
             case 4:
                 if (num2 != 0) {
-                    System.out.println("Result: " + Division.div(num1, num2));
+                    System.out.println("Result: " + Division.divide(num1, num2));
                 } else {
                     System.out.println("Error: Division by zero is not allowed.");
                 }
